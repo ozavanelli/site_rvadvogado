@@ -1,0 +1,534 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+main {
+  padding-top: 70px;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 31px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 31px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 31px 1px rgba(0, 0, 0, 0.75);
+}
+
+header .row {
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 230px;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+header nav ul li {
+  padding-right: 30px;
+}
+
+header nav ul li:last-child {
+  padding-right: 0;
+}
+
+header nav ul li a {
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid black;
+  padding-bottom: 0px;
+  transition: ease .4s;
+}
+
+header nav ul li a:hover {
+  color: #997028;
+  border-bottom: 1px solid #997028;
+  padding-bottom: 8px;
+  transition: ease .4s;
+}
+
+header nav ul li a.active {
+  color: #997028;
+}
+
+/* header */
+
+
+.opacityInterna {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.opacityInterna_time {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: -100px;
+  height: 402px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.opacityInterna_quebra {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.introducao-interna .container, .home-time .container-fluid, .quebra .container-fluid {
+  position: relative;
+}
+
+/* introdução */
+
+.introducao .swiper-container {
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+
+.introducao .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.introducao .info-bg {
+  margin-top: 60px;
+}
+
+.introducao h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.introducao h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.introducao p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.introducao p::after,
+.introducao p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.introducao-interna {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.introducao-interna .row {
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.introducao-interna h1 {
+  color: white;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+/* fim introducao  */
+
+/* home - sobre  */
+
+.home-sobre {
+  padding: 100px 0;
+}
+
+.home-sobre img {
+  width: 100%;
+  height: auto;
+}
+
+.home-sobre h1::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: black;
+  margin: 14px 0 40px 0;
+}
+
+.home-sobre p {
+  text-align: justify;
+  color: #3E3E3E;
+  margin-bottom: 50px;
+}
+
+.btn-dourado {
+  padding: 10px 15px;
+  color: #997028;
+  font-weight: 600;
+  border: 1px solid #997028;
+  border-radius: 5px;
+  transition: ease .3s;
+}
+
+.btn-dourado:hover {
+  color: white;
+  background-color: #997028;
+  transition: ease .3s;
+}
+
+/* fim home-sobre */
+
+/* conheça nosso time */
+
+.home-time {
+  padding: 100px 0;
+  background: url(../img/bg_nossotime.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-time .row {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.home-time h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: black;
+  margin: 14px auto 10px auto;
+}
+
+.home-time .btn-preto {
+  padding: 10px 15px;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: ease .3s;
+  margin-top: 30px;
+}
+
+.home-time .btn-preto:hover {
+  color: white;
+  background-color: black;
+  transition: ease .3s;
+}
+
+/* fim conheça nosso time */
+
+/* área atuação */
+
+.atuacao {
+  margin: 100px 0;
+}
+
+.atuacao h1 {
+  margin: 0 auto;
+}
+
+.atuacao h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: black;
+  margin: 14px auto 10px auto;
+}
+
+.atuacao .itens-atuacao {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.atuacao a {
+  margin: 0 auto;
+}
+
+.atuacao .item-atuacao {
+  padding: 30px 10px;
+  transition: transform .2s;
+}
+
+.atuacao .item-atuacao:hover {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  transition: transform .2s;
+}
+
+.atuacao .item-atuacao img {
+  height: 100px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.atuacao .item-atuacao h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black !important;
+  margin-bottom: 20px;
+}
+
+.atuacao .item-atuacao p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3E3E3E !important;
+}
+
+/* fim área atuação */
+
+/* início quebra */
+
+.quebra {
+  background: url(../img/bg_quebra.jpeg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quebra .row {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+}
+
+.quebra p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.quebra cite {
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.quebra p::after,
+.quebra p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+/* fim quebra */
+
+/* Início footer  */
+
+footer {
+  padding: 100px 0 135px 0;
+}
+
+footer img {
+  height: 100px;
+  width: auto;
+}
+
+footer ul li {
+  padding-bottom: 20px;
+}
+
+footer ul li:last-child {
+  padding-bottom: 0;
+}
+
+footer ul li a {
+  color: #3E3E3E;
+}
+
+footer ul li a:hover {
+  color: #997028;
+  transition: ease .3s;
+}
+
+footer h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+footer h4:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: black;
+  margin: 10px 0 20px 0;
+}
+
+footer p {
+  color: #3E3E3E;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+footer .contatos a {
+  color: #3E3E3E;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+footer .contatos a.email {
+  font-size: 13px;
+}
+
+.footer {
+  background: black;
+  padding: 15px;
+  color: #997028;
+  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+
+.footer .row {
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer a {
+  color: #997028;
+  font-size: 12px !important;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footer a i {
+  font-size: 20px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.footer a p {
+  margin-bottom: 0;
+  color: #997028;
+  font-size: 12px !important;
+}
+
+
+
+/* Fim footer  */
+
+.form .row {
+  flex-direction: row !important;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #997028;
+  padding: 10px;
+  color: white;
+  background: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: white;
+}
+
+.form input:focus,
+.form textarea:focus,
+.form button:focus {
+  outline: none;
+}
+
+.form button {
+  background: none;
+  color: #997028;
+  border: 1px solid #997028;
+  padding: 6px 12px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.form button:hover {
+  background: #997028;
+  transition: ease .3s;
+  color: black;
+}
+
+.mobile-btn {
+  display: none;
+}

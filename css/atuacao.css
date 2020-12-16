@@ -1,0 +1,15 @@
+.introducao-interna.bg-atuacao {
+  background-image: url(../img/bg-atuacao.jpg);
+}
+
+.atuacao .sobre-atuacao {
+  text-align: justify;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #3E3E3E;
+  line-height: 26px;
+}
+
+.atuacao .itens-atuacao {
+  margin: 60px 0 0 0;
+}

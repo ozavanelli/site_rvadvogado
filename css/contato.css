@@ -1,0 +1,36 @@
+.contato {
+  padding: 100px 0;
+}
+
+.contato .row {
+  flex-direction: column;
+}
+
+.contato h1:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: black;
+  margin: 10px 0 20px 0;
+}
+
+.form input,
+.form textarea {
+  color: #3E3E3E;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #3E3E3E;
+}
+
+.form button:hover {
+  color: white;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
