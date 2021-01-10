@@ -176,6 +176,13 @@
     margin-right: 25px;
   }
 
+  .itens_contato a img {
+    width: 100px;
+    height: auto;
+    /* padding: 30px; */
+    transition: ease .2s;
+  }
+
   .sobre {
     padding: 60px 0;
   }
