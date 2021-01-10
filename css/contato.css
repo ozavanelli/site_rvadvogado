@@ -2,10 +2,6 @@
   padding: 100px 0;
 }
 
-.contato .row {
-  flex-direction: column;
-}
-
 .contato h1:after {
   content: "";
   display: block;
@@ -15,22 +11,33 @@
   margin: 10px 0 20px 0;
 }
 
-.form input,
-.form textarea {
-  color: #3E3E3E;
+.contato p {
+  margin-bottom: 100px;
 }
 
-.form input::placeholder,
-.form textarea::placeholder {
-  color: #3E3E3E;
+.itens_contato {
+  text-align: center;
 }
 
-.form button:hover {
-  color: white;
+.itens_contato a {
+  color: black;
 }
 
-.nao-aparece {
-  visibility: hidden;
-  position: absolute;
-  height: 0px;
+.itens_contato a img {
+  width: 180px;
+  height: auto;
+  /* padding: 30px; */
+  transition: ease .2s;
+}
+
+.itens_contato a img:hover {
+  /* -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5); */
+  transform: scale(1.1);
+  transition: transform .2s;;
+}
+
+.item_contato {
+  margin-bottom: 50px;
 }
