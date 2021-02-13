@@ -132,6 +132,32 @@ header nav ul li a.active {
   text-align: center;
 }
 
+.introducao .swiper-bg1 {
+  background-image:url(../img/bg_introducao1.jpg);
+}
+
+.introducao .swiper-bg2 {
+  background-image:url(../img/bg_introducao5.jpg);
+  background-position: top;
+}
+
+.introducao .swiper-bg3 {
+  background-image:url(../img/bg_introducao3.jpg);
+}
+
+.introducao .swiper-bg4 {
+  background-image:url(../img/bg_introducao4.jpg);
+}
+
+.introducao .swiper-bg5 {
+  background-image:url(../img/bg_introducao2.jpg);
+}
+
+.introducao .swiper-bg6 {
+  background-image:url(../img/bg_introducao6.jpeg);
+  background-position: top;
+}
+
 .introducao .info-bg {
   margin-top: 80px;
 }
@@ -242,7 +268,7 @@ header nav ul li a.active {
 
 .home-time {
   /* padding: 100px 0; */
-  background: url(../img/time.jpg);
+  background: url(../img/time1.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
