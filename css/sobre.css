@@ -6,8 +6,8 @@ introducao-interna {
 }
 
 .introducao-interna.bg-sobre {
-    background: url(../img/introducaoInterna_sobre.png);
-    background-position: top;
+    background: url(../img/foto_empresa55.jpg);
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -34,31 +34,12 @@ introducao-interna {
     padding: 100px 0;
 }
 
-.sobre .lista {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.sobre .lista li {
-    text-align: center;
-}
-
-.sobre .lista li a {
-    color: #997028;
-    padding: 12px 35px;
-    border: 2px solid #997028;
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-.sobre .lista li a.active {
-    color: white;
-    border: 2px solid #997028;
-    background: #997028;
-}
-
 .sobre .item .row {
     flex-direction: column;
+}
+
+#escritorio.item.row {
+    padding-top: 80px;
 }
 
 .sobre .item p {
@@ -98,26 +79,6 @@ introducao-interna {
 .sobre #sobre,
 .sobre #nosso-time {
     flex-direction: column;
-}
-
-.js .sobre .item {
-    padding-top: 80px;
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate3d(-50px, 0, 0);
-}
-
-.js .sobre .item.active {
-    opacity: 1;
-    visibility: visible;
-    position: relative;
-    top: auto;
-    right: auto;
-    transition: ease .3s;
-    transform: translate3d(0px, 0, 0);
 }
 
 #escritorio .swiper-container {
